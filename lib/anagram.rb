@@ -11,7 +11,6 @@ class Anagram
     # split & sort word
     array.collect do |element|
       element if query == element.split("").sort.join
-
     end
 
     # & array item
