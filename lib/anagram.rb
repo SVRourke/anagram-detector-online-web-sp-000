@@ -9,8 +9,8 @@ class Anagram
   def match(array)
     query = @word.split("").sort.join
     # split & sort word
-    array.collect do |element|
-      query == element.split("").sort.join
+    array.find_all do |element|
+      if query == element.split("").sort.join
     end
 
     # & array item
