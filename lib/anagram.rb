@@ -10,7 +10,7 @@ class Anagram
     query = @word.split("").sort.join
     # split & sort word
     array.collect do |element|
-      element if query == element.split("").sort.join
+      query == element.split("").sort.join
     end
 
     # & array item
