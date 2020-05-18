@@ -10,13 +10,8 @@ class Anagram
     query = @word.split("").sort.join
     # split & sort word
     array.find_all do |element|
-      if query == element.split("").sort.join
+      query == element.split("").sort.join
     end
-
-    # & array item
-    # check if match ==
-    # return all matches in array
-
   end
 
 end
