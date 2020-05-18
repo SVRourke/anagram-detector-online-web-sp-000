@@ -7,6 +7,12 @@ class Anagram
   end
 
   def match(array)
+    query = @word.split("").sort.join
+    # split & sort word
+    & array item
+    # check if match ==
+    # return all matches in array
+
   end
 
 end
