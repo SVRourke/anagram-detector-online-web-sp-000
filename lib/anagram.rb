@@ -12,7 +12,7 @@ class Anagram
     array.collect do |element|
       if query == element.split("").sort.join
     end
-
+    
     & array item
     # check if match ==
     # return all matches in array
